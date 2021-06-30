@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%), url(img_menu/fondo.jpg);
+    background-size: 100%;
+}
+
+.menu-principal {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    top: 90px;
+}
+
+.menu-principal .list-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-principal .list-menu .menus {
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.menu-principal .list-menu .menus a img {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border: 6px solid; color: rgba(0, 0, 0, .50);
+}
+
+.menu-principal .list-menu .menus h1 {
+    color:white;
+    size: 15px;
+    text-align: center;
+}

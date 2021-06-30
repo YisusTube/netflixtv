@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+
+.lista_peliculas {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    top: 30px;
+}
+
+.lista_peliculas .lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lista_peliculas .lista .peliculas {
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.lista_peliculas .lista .peliculas a img {
+    position: relative;
+    width: 150px;
+    height: 250px;
+    margin: auto;
+    border: 5px solid; color: rgba(75, 75, 75, 0.5);
+}
